@@ -1,3 +1,5 @@
+from Animal import Animal
+
 class Bovino:
 
     def __init__(self):
