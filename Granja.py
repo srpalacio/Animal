@@ -1,4 +1,5 @@
-
+from Perro import Perro 
+from Bovino import Bovino
 
 class Granja:
 
@@ -21,3 +22,16 @@ class Granja:
     def obtenerBovino(self,codigo):
 
         return self.misBovinos[codigo]
+    
+     def obtenerPerro(self, indice):
+        return self.MisPerros[indice]
+    
+     def agregarPerro(self,peso,edad,raza,propietario,fechaVacunacion):
+        miPerro=Perro()
+        miPerro.edad=edad
+        miPerro.edad=peso
+        miPerro.edad=raza
+        miPerro.edad=propietario
+        miPerro.edad=fechaVacunacion
+
+        self.MisPerros.append(miPerro)
