@@ -1,3 +1,5 @@
+from Animal import Animal
+
 class Perro:
 
     def __init__(self):
