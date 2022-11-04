@@ -17,16 +17,19 @@ class Granja:
         self.miBovino.propietario=propietario
         self.miBovino.fechaVacunacion=fechaVacunacion
         self.miBovino.establo=establo
+        
         self.misBovinos.append(miBovino)
 
     def obtenerBovino(self,codigo):
 
         return self.misBovinos[codigo]
     
-     def obtenerPerro(self, indice):
+    def obtenerPerro(self, indice):
+
         return self.MisPerros[indice]
     
-     def agregarPerro(self,peso,edad,raza,propietario,fechaVacunacion):
+    def agregarPerro(self,peso,edad,raza,propietario,fechaVacunacion):
+
         miPerro=Perro()
         miPerro.edad=edad
         miPerro.edad=peso
