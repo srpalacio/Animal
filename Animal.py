@@ -7,6 +7,8 @@ class Animal:
         self.peso
         self.edad
         self.raza
+        self.fechaVacunacion
+        self.propietario
 
     def correr(self):
         
@@ -14,13 +16,6 @@ class Animal:
             print("Rápido")
         else:
             print("Lento")
-
-    def emitirSonido(self):
-        
-        if self.edad>=3:
-            print("Guau Guau")
-        else:
-            print("Auf Auf")
 
     def obtenerEdad(self):
         
